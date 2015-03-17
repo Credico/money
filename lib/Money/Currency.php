@@ -24,6 +24,7 @@ class Currency
 	const AUD = 'AUD';
     const CHF = 'CHF';
     const ROL = 'ROL';
+    const RON = 'RON';
 
     public function __construct($name)
     {

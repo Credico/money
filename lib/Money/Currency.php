@@ -15,16 +15,26 @@ class Currency
     /** @var string */
     private $name;
 
-    const EUR = 'EUR';
-    const USD = 'USD';
-    const GBP = 'GBP';
-    const JPY = 'JPY';
-    const SEK = 'SEK';
-    const DKK = 'DKK';
+    const AED = 'AED';
 	const AUD = 'AUD';
     const CHF = 'CHF';
+    const CNY = 'CNY';
+    const DKK = 'DKK';
+    const EUR = 'EUR';
+    const GBP = 'GBP';
+    const JPY = 'JPY';
+    const KWD = 'KWD';
+    const MXN = 'MXN';
+    const MYR = 'MYR';
+    const NOK = 'NOK';
     const ROL = 'ROL';
     const RON = 'RON';
+    const SEK = 'SEK';
+    const SGD = 'SGD';
+    const THB = 'THB';
+    const USD = 'USD';
+    const WON = 'WON';
+    const ZAR = 'ZAR';
 
     public function __construct($name)
     {
